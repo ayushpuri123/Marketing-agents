@@ -75,25 +75,21 @@ The Review Module is a first-pass gate only. A human remains responsible for the
 ## Project structure
 
 ```text
-marketing_agents/
-    app.py
-    agents/
-        research_agent.py
-        content_agent.py
-        analytics_agent.py
-        review_agent.py
-    utils/
-        metrics.py
-        validation.py
-    tests/
-        test_metrics.py
-        test_analytics_agent.py
-        test_review_agent.py
-        test_workflow_modules.py
-    sample_data.py
-    requirements.txt
-    README.md
-    FAILURE_LOG.md
+Marketing-agents/
+├── app.py
+├── agents/
+│   ├── research_agent.py
+│   ├── content_agent.py
+│   ├── analytics_agent.py
+│   └── review_agent.py
+├── utils/
+│   ├── metrics.py
+│   └── validation.py
+├── tests/
+├── sample_data.py
+├── requirements.txt
+├── README.md
+└── FAILURE_LOG.md
 ```
 
 ## Setup
